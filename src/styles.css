@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito');
 
-
 body {
     font-family: 'Nunito', sans-serif;
 }
@@ -24,9 +23,11 @@ body {
 }
 
 .signin_padding{
-    padding-right: 200px;
-    padding-left: 200px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-left:140px;
 }
+
 .navbar{
     display: flex;
     justify-content: space-evenly;
@@ -52,3 +53,111 @@ body {
     background-color: #F5B295;
 
 }
+
+.outline{
+    padding-top:20px;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right:auto;
+    width:925px;
+    background-color: rgb(248, 248, 248);
+    border-radius: 10px;
+    border: 3px solid rgb(189, 187, 187);
+}
+@media(max-width:992px){
+    .outline{
+        margin-left: 0px;
+        margin-right:0px;
+        width:100%;
+    }
+    .signin_padding{
+        margin-left:20px;
+    }
+}
+@media(max-width:768px){
+    .login-style input{
+        background: black;
+        border: 0px;
+        padding: 10px;
+        width: 600px;
+        border-radius:5px;
+        max-width: 100%;
+    }
+}
+
+.login-style input{
+    background: white;
+    border: 0px;
+    padding: 10px;
+    width: 600px;
+    margin-left:155px;
+    border-radius:5px;
+    max-width: 100%;
+}
+.date-style{
+    color:black;
+}
+input:-webkit-autofill{
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+    box-shadow: 0 0 0px 1000px white inset;
+   
+}
+
+.sign-in{
+    padding: 5px 20px 0px 20px;
+    border-radius: 10px;
+    border:0px;
+    color: white;
+    background-color:#009dff;
+}
+.sign-in:hover{
+    background-color: rgb(95, 182, 253);
+}
+.login-style input:valid{
+    border: 2px solid rgb(0, 201, 0);
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+    box-shadow: 0 0 0px 1000px white inset;
+}
+.login-style input:invalid{
+    border: 2px solid red; 
+}
+.login-style input:hover{
+    border: 2px solid rgb(43, 142, 255);
+    border-radius:5px;
+    -webkit-box-shadow: 0 0 0px 1000px rgb(252, 252, 252) inset;
+    box-shadow: 0 0 0px 1000px white inset;
+}
+.login-style input:focus{
+    border: 2px solid rgb(43, 142, 255);
+    -webkit-box-shadow: 0 0 0px 1000px rgb(252, 252, 252) inset;
+    box-shadow: 0 0 0px 1000px white inset;
+    border-radius:5px;
+    outline:none;
+}
+
+.signin-error{
+    padding-left:140px;
+    font-size:16px;
+    color:red;
+    text-align: left;
+}
+.signin-success{
+    padding-left:140px;
+    font-size:16px;
+    color:green;
+    text-align: left;
+}
+.createAcc-error{
+    padding-left:140px;
+    font-size:16px;
+    color:red;
+    text-align: left;
+}
+.email-error{
+    padding-left:0px;
+    font-size:16px;
+    color:red;
+    text-align: left;
+}
+
+

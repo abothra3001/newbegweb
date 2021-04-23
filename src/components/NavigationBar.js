@@ -10,7 +10,7 @@ export const NavigationBar = () => (
   </Navbar.Toggle>
   <Navbar.Collapse id="basic-navbar-nav" >
 
-    <Nav class="navbar-nav nav-fill w-100 " >
+    <Nav className="navbar-nav nav-fill w-100 " >
      <Router>
       
       <Nav.Item><Nav.Link as = {Link} to = "/"><h5>Home</h5></Nav.Link></Nav.Item>
