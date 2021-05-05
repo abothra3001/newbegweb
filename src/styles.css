@@ -3,12 +3,14 @@
 body {
     font-family: 'Nunito', sans-serif;
 }
-
 .font30 {
     font-size: 30px;
 }
 .space20{
     padding-top: 20px;
+}
+.space10{
+    padding-top: 10px;
 }
 .centered {
     text-align: center;
@@ -21,7 +23,6 @@ body {
   position: relative;
   z-index: -2;
 }
-
 .signin_padding{
     padding-top: 0px;
     padding-bottom: 0px;
@@ -60,7 +61,7 @@ body {
     margin-left: auto;
     margin-right:auto;
     width:925px;
-    background-color: rgb(248, 248, 248);
+    background-color: rgb(243, 243, 243);
     border-radius: 10px;
     border: 3px solid rgb(189, 187, 187);
 }
@@ -87,7 +88,7 @@ body {
 
 .login-style input{
     background: white;
-    border: 0px;
+    border: 2px solid rgb(63, 63, 63);
     padding: 10px;
     width: 600px;
     margin-left:155px;
@@ -98,14 +99,14 @@ body {
     color:black;
 }
 input:-webkit-autofill{
-    -webkit-box-shadow: 0 0 0px 1000px white inset;
-    box-shadow: 0 0 0px 1000px white inset;
+    -webkit-box-shadow: 0 0 0px 1000px #ffefe8 inset;
+    box-shadow: 0 0 0px 1000px #ffefe8 inset;
    
 }
 
 .sign-in{
-    padding: 5px 20px 0px 20px;
-    border-radius: 10px;
+    padding: 5px 60px 0px 60px;
+    border-radius: 5px;
     border:0px;
     color: white;
     background-color:#009dff;
@@ -113,24 +114,14 @@ input:-webkit-autofill{
 .sign-in:hover{
     background-color: rgb(95, 182, 253);
 }
-.login-style input:valid{
-    border: 2px solid rgb(0, 201, 0);
-    -webkit-box-shadow: 0 0 0px 1000px white inset;
-    box-shadow: 0 0 0px 1000px white inset;
-}
-.login-style input:invalid{
-    border: 2px solid red; 
-}
+
 .login-style input:hover{
     border: 2px solid rgb(43, 142, 255);
     border-radius:5px;
-    -webkit-box-shadow: 0 0 0px 1000px rgb(252, 252, 252) inset;
-    box-shadow: 0 0 0px 1000px white inset;
+
 }
 .login-style input:focus{
     border: 2px solid rgb(43, 142, 255);
-    -webkit-box-shadow: 0 0 0px 1000px rgb(252, 252, 252) inset;
-    box-shadow: 0 0 0px 1000px white inset;
     border-radius:5px;
     outline:none;
 }
@@ -154,10 +145,12 @@ input:-webkit-autofill{
     text-align: left;
 }
 .email-error{
-    padding-left:0px;
+    padding-left:155px;
     font-size:16px;
     color:red;
     text-align: left;
 }
+
+
 
 
